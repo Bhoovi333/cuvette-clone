@@ -1,4 +1,4 @@
-{
+{"homepage":"https://bhoovi333.github.io/cuvette-clone/"
   "name": "cui",
   "private": true,
   "version": "0.0.0",
@@ -8,6 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+     "predeploy":"npm run build"
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "@coreui/icons": "^3.0.1",
